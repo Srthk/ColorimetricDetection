@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+<TextView
+    android:id="@+id/tview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:gravity="center"
+    android:text=""
+    android:textSize="14sp"
+    android:textColor="#000000" /> -->
+   <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdcdc"
+    android:orientation="vertical" >
+
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/display_row"
+            android:layout_marginTop="280dip" >
+             
+          </TableRow>
+
+</TableLayout>
+   
+  <!--  <TableLayout
+        android:id="@+id/table2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="0.80"
+        android:stretchColumns="*" >
+
+          <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+              >
+
+            <TextView
+                android:gravity="left"
+                android:text="Timestamp"
+                android:background="@drawable/border"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:text="Gvalue1"
+                android:background="@drawable/border"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:text="Gvalue2"
+                android:background="@drawable/border"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:text="Gvalue3"
+                android:background="@drawable/border"
+                android:textStyle="bold" />
+            <TextView
+                android:gravity="center"
+                android:text="Gvalue4"
+                android:background="@drawable/border"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>-->

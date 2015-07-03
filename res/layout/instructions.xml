@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+        <TextView
+    android:id="@+id/instructText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:gravity="start"
+    android:text="INSTRUCTIONS:\n\n1.Prick the finger with the lancet to extract the reproducible amount of blood. (2 micro litres)\n\n2.Take a visual test strip.\n\n3. Put the blood in the dedicated area on the test strip to check the blood glucose value. \n\n4. Check for the color change on the back side of the visual test strip\n\n5. Scan the strip by pressing 'Scan Test Strip' button.\n\n6. Get new results\n\n7. Click the 'View Results' button in the application to refer all the stored results.\n\nNote: Refer to HSV algorithm values for precise results. LAB is still in testing phase and may give false result. For best results test in sunlight."
+    android:textSize="14sp"
+    android:textColor="#000000" />
+   
+
+</LinearLayout>
